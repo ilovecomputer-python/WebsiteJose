@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebPage Jose</title>
+  <link href = "webpage.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="header">
+    <div class="tombol-kembali">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div>
+      <h1>Life Summary &gt; Maximillian Jose Andreas Aditjandra<br>IDX : MJAA</h1>
+      <h2>*click green circle for more information</h2>
+    </div>
+  </div>
+
+
+  <div class="grafik-lilin">
+
+    <svg class="candlestick-chart" viewBox="0 0 1000 400" preserveAspectRatio="xMidYMid meet">
+        
+        <line x1="0" y1="100" x2="1000" y2="100" class="grid-path"/>
+        <line x1="0" y1="200" x2="1000" y2="200" class="grid-path"/>
+        <line x1="0" y1="300" x2="1000" y2="300" class="grid-path"/>
+        <line x1="250" y1="0" x2="250" y2="400" class="grid-path"/>
+        <line x1="500" y1="0" x2="500" y2="400" class="grid-path"/>
+        <line x1="750" y1="0" x2="750" y2="400" class="grid-path"/>
+
+        <line x1="0" y1="350" x2="1000" y2="350" class="support-line-svg"/>
+        <text x="20" y="345" class="support-text">STRONG SUPPORT AREA</text>
+
+        <g class="candle-green"><line x1="100" y1="280" x2="100" y2="340"/><rect x="90" y="290" width="20" height="30"/></g>
+        <g class="candle-green"><line x1="180" y1="220" x2="180" y2="330"/><rect x="170" y="240" width="20" height="80"/></g>
+        
+        <g class="candle-green"><line x1="260" y1="30" x2="260" y2="250"/><rect x="250" y="60" width="20" height="170"/></g>
+        
+        <g class="candle-red"><line x1="340" y1="120" x2="340" y2="280"/><rect x="330" y="150" width="20" height="110"/></g>
+        
+        <g class="candle-red"><line x1="420" y1="200" x2="420" y2="360"/><rect x="410" y="220" width="20" height="120"/></g>
+        
+        <g class="candle-grey"><line x1="500" y1="330" x2="500" y2="370"/><rect x="490" y="348" width="20" height="4"/></g>
+        
+        <g class="candle-green"><line x1="580" y1="280" x2="580" y2="350"/><rect x="570" y="300" width="20" height="40"/></g>
+
+
+        <a href="webpage2.html" style="cursor: pointer;">
+            <g class="marker-group marker-green">
+               <circle cx="260" cy="30" r="15" class="marker-ring" />
+               <circle cx="260" cy="30" r="6"  class="marker-dot" />
+            </g>
+        </a>
+
+        <g class="marker-group marker-red">
+           <circle cx="340" cy="205" r="15" class="marker-ring" />
+           <circle cx="340" cy="205" r="6"  class="marker-dot" />
+        </g>
+
+        <g class="marker-group marker-blue">
+           <circle cx="500" cy="368.5" r="15" class="marker-ring" />
+           <circle cx="500" cy="368.5" r="6"  class="marker-dot" />
+        </g>
+
+    </svg>
+  </div>
+
+</body>
+</html>
